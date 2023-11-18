@@ -83,11 +83,11 @@ const readData = (id) => {
 }
 
 ////////////////////////////////////////////////////////////////////////////////
-//read Data for person 5
+// read Data for person 5
 // const readDataPerson5 = () => {
 //     const allData = loadData()
 //     const findPerson = allData.find((obj) => {
-//         return obj.id = 5
+//         return obj.id == 5
 //     })
 //     if (findPerson) {
 //         console.log(findPerson);
@@ -100,5 +100,6 @@ module.exports = {
     addPerson,
     deletePerson,
     listData,
-    readData
+    readData,
+    // readDataPerson5
 }

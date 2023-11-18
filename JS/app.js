@@ -81,6 +81,10 @@ yargs.command({
         dataPerson.readData(x.id)
         
     }
+    // handler: () => {
+    //     dataPerson.readDataPerson5()
+        
+    // }
 })
 
 ////////////////////////////////////////////////////////////////////////////////
